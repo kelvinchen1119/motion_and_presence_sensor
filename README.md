@@ -69,7 +69,7 @@ motion_and_presence_sensor/        # 工作区
 | ESP32C3-mini | 12.2 | 淘宝（Saint Geffen企业店） | [点击跳转](https://s.click.taobao.com/i0JbsJt) |
 | LD2410B      | 16.9 | 淘宝（hilink旗舰店）       | [点击跳转](https://s.click.taobao.com/pmBbsJt) |
 | 其他电容电阻等辅料    | 1    | 淘宝（推荐深圳优信电子）        | 进店搜索                                       |
-| 3D打印外壳       | /    | 自行打印                | [打印文件]()                                   |
+| 3D打印外壳       | /    | 自行打印                | [打印文件](https://makerworld.com/zh/models/750315#profileId-683903)                                   |
 | AC-DC电源模块    | 3.9  | 淘宝（深圳优信电子）          | 进店搜索                                       |
 | 射灯卡扣         | 0.24 | 淘宝                  | [点击跳转](https://s.click.taobao.com/8XB5qJt) |
 
