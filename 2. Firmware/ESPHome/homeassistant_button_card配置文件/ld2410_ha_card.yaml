@@ -1,0 +1,236 @@
+# 说明：不要直接复制！
+# 注意需要把entity的内容改成你自己的；按照我的固件烧录，名称都是固定的，如果有多个，就会加上 "_2" 这样的后缀，根据你自己的entity_id进行修改
+type: vertical-stack
+title: Esp32C3 Ld2410-29B964
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: entities
+        entities:
+          - entity: switch.engineering_mode
+            name: engineering mode
+  - type: vertical-stack
+    cards:
+      - type: entities
+        entities:
+          - entity: number.timeout
+            name: timeout
+          - entity: number.max_move_distance_gate
+            name: max move distance gate
+          - entity: number.max_still_distance_gate
+            name: max still distance gate
+          - entity: select.light_function
+            name: light function
+          - entity: number.light_threshold
+            name: light threshold
+      - type: horizontal-stack
+        cards:
+          - type: entity
+            entity: sensor.detection_distance_2
+            name: distance
+          - type: entity
+            entity: sensor.moving_distance_2
+            name: move
+          - type: entity
+            entity: sensor.still_distance_2
+            name: still
+  - type: horizontal-stack
+    cards:
+      - type: entity
+        entity: sensor.move_energy_2
+        name: move energy
+      - type: entity
+        entity: sensor.still_energy_2
+        name: still energy
+  - type: horizontal-stack
+    cards:
+      - type: entity
+        entity: binary_sensor.gpio_out_pin_presence_2
+        name: gpio presence
+        state_color: true
+      - type: entity
+        entity: binary_sensor.presence
+        name: presence
+        state_color: true
+      - type: entity
+        entity: binary_sensor.moving_target
+        name: movement
+        state_color: true
+      - type: entity
+        entity: binary_sensor.still_target
+        name: still
+        state_color: true
+  - type: conditional
+    conditions:
+      - entity: switch.engineering_mode
+        state: 'on'
+    card:
+      type: vertical-stack
+      cards:
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.light_2
+              name: light
+            - type: entity
+              entity: binary_sensor.out_pin_presence_status
+              name: out pin presence
+              state_color: true
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.g0_move_energy_2
+              name: g0
+            - type: entity
+              entity: number.g0_move_threshold
+              name: ' '
+            - type: entity
+              entity: sensor.g0_still_energy_2
+              name: ' '
+            - type: entity
+              entity: number.g0_still_threshold
+              name: ' '
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.g1_move_energy_2
+              name: g1
+              icon: ' '
+            - type: entity
+              entity: number.g1_move_threshold
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: sensor.g1_still_energy_2
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: number.g1_still_threshold
+              name: ' '
+              icon: ' '
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.g2_move_energy_2
+              name: g2
+              icon: ' '
+            - type: entity
+              entity: number.g2_move_threshold
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: sensor.g2_still_energy_2
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: number.g2_still_threshold
+              name: ' '
+              icon: ' '
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.g3_move_energy_2
+              name: g3
+              icon: ' '
+            - type: entity
+              entity: number.g3_move_threshold
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: sensor.g3_still_energy_2
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: number.g3_still_threshold
+              name: ' '
+              icon: ' '
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.g4_move_energy_2
+              name: g4
+              icon: ' '
+            - type: entity
+              entity: number.g4_move_threshold
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: sensor.g4_still_energy_2
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: number.g4_still_threshold
+              name: ' '
+              icon: ' '
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.g5_move_energy_2
+              name: g5
+              icon: ' '
+            - type: entity
+              entity: number.g5_move_threshold
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: sensor.g5_still_energy_2
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: number.g5_still_threshold
+              name: ' '
+              icon: ' '
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.g6_move_energy_2
+              name: g6
+              icon: ' '
+            - type: entity
+              entity: number.g6_move_threshold
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: sensor.g6_still_energy_2
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: number.g6_still_threshold
+              name: ' '
+              icon: ' '
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.g7_move_energy_2
+              name: g7
+              icon: ' '
+            - type: entity
+              entity: number.g7_move_threshold
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: sensor.g7_still_energy_2
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: number.g7_still_threshold
+              name: ' '
+              icon: ' '
+        - type: horizontal-stack
+          cards:
+            - type: entity
+              entity: sensor.g8_move_energy_2
+              name: g8
+              icon: ' '
+            - type: entity
+              entity: number.g8_move_threshold
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: sensor.g8_still_energy_2
+              name: ' '
+              icon: ' '
+            - type: entity
+              entity: number.g8_still_threshold
+              name: ' '
+              icon: ' '
