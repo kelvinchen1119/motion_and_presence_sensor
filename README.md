@@ -58,6 +58,28 @@ motion_and_presence_sensor/        # 工作区
 	<br>
 </center>
 
+### 自动化效果展示
+<center>
+	<img 
+	align="absmiddle" src="https://www.buda8888.com:30006/images/ReZ-TI/Product/SmartHome/Sensor/motion_and_presence_sensor/general/雷鹰01：餐厅厨房自动化演示/雷鹰01：餐厅厨房自动化演示.gif" 
+	style="max-width:100%" />
+	<br>
+	<br>
+	<img 
+	align="absmiddle" src="https://www.buda8888.com:30006/images/ReZ-TI/Product/SmartHome/Sensor/motion_and_presence_sensor/general/雷鹰01：近距离控制展示/雷鹰01：近距离控制展示.gif" 
+	style="max-width:100%" />
+	<br>
+	<br>
+	<img 
+	align="absmiddle" src="https://www.buda8888.com:30006/images/ReZ-TI/Product/SmartHome/Sensor/motion_and_presence_sensor/general/雷鹰01：电视机暂停互动/雷鹰01：电视机暂停互动.gif" 
+	style="max-width:100%" />
+	<br>
+	<br>
+	<img 
+	align="absmiddle" src="https://www.buda8888.com:30006/images/ReZ-TI/Product/SmartHome/Sensor/motion_and_presence_sensor/general/雷鹰01：卫生间顶装效果演示/雷鹰01：卫生间顶装效果演示.gif" 
+	style="max-width:100%" />
+</center>
+
 ## 成本预估及购买建议
 ### 成本预估：
 - 如果usb版，加上嘉立创免费打板，40元以内可以搞定；
